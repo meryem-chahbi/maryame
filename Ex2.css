@@ -1,0 +1,50 @@
+"""
+   
+    .menu{
+  
+        text-decoration: none;
+      }
+    .menu:hover {
+      color: green;
+      text-decoration: underline;
+    }
+
+    .division-container {
+      display: flex;
+      flex-wrap: wrap;
+    }
+
+    .button-container {
+      display: flex;
+      flex-wrap: wrap;
+    }
+
+    .button-container A {
+        width: 60%; 
+        margin-bottom: 1em;
+      }
+
+    /* Point 3: Style pour les trois divisions */
+    .division {
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+      border: 1px solid #ccc;
+      padding: 2em;
+      margin: 0 0 1em 0 ;
+    }
+    @media (max-width: 768px) {
+        .division-container {
+          flex-direction: column;
+        }
+  
+        .button-container {
+          flex-direction: column;
+        }
+  
+        .button-container button {
+          width: 100%;
+        }
+      }
+
+  
+
+"""
